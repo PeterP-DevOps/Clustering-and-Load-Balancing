@@ -6,14 +6,14 @@
 -На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.  
 ### Решение 1
 Конфигурационный файл haproxy:  
-[Конфигурационный файл haproxy](/home/ppg/Clustering-and-Load-Balancing/zadanie1/haproxy.cfg)  
+[Конфигурационный файл haproxy](zadanie1/haproxy.cfg)  
 
 Скриншоты:  
 Перенаправление запросов на разные серверы при обращении к HAProxy:  
-![1](/home/ppg/Clustering-and-Load-Balancing/pic/TCP.png)  
+![1](pic/TCP.png)  
 
 Статистика:  
-![2](/home/ppg/Clustering-and-Load-Balancing/pic/TCP2.png)  
+![2](pic/TCP2.png)  
 
 ### Задание 2
 -Запустите три simple python сервера на своей виртуальной машине на разных портах  
@@ -23,11 +23,11 @@
 
 ### Решение 2
 Конфигурационный файл haproxy с балансировкой Weighted Round Robin на 7 уровне http-трафика, который адресован домену example.local, где первый сервер имеет вес 2, второй - 3, а третий - 4  
-[Конфигурационный файл haproxy](/home/ppg/Clustering-and-Load-Balancing/zadanie2/haproxy.cfg)  
+[Конфигурационный файл haproxy](zadanie2/haproxy.cfg)  
 
 Скриншоты:  
 Перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него  
-![3](/home/ppg/Clustering-and-Load-Balancing/pic/zadanie21.png)  
+![3](pic/zadanie21.png)  
 Статистика:  
-![4](/home/ppg/Clustering-and-Load-Balancing/pic/zadanie2.png)  
+![4](pic/zadanie2.png)  
 
